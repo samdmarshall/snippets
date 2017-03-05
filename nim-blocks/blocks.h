@@ -2,6 +2,6 @@
 
 @interface Foo : NSObject
 
-- (int) doubleValue:(double)value withBlock:(int (^double_it)(double value))block- (int) doubleValue:(int (^double_it)(double)) block;
+- (int) doubleValue:(double)value withBlock:(int (^)(double value))block;
 
 @end
