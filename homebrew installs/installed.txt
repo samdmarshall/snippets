@@ -1,0 +1,214 @@
+adns: 
+alot: gpgme libmagic notmuch
+ansible: libyaml openssl@1.1 python
+samdmarshall/formulae/aosd: 
+apr: 
+apr-util: apr openssl
+ascii: 
+asciinema: python3
+aspcud: clasp gringo
+aspell: 
+autoconf: 
+automake: autoconf
+samdmarshall/formulae/battery-level: nim
+bdw-gc: 
+samdmarshall/formulae/bugmatic: 
+buku: openssl@1.1 python3
+samdmarshall/formulae/c2nim: nim
+cairo: fontconfig freetype glib libpng pixman
+camlp4: ocaml ocamlbuild
+clasp: 
+clipper: 
+cloc: 
+cmake: 
+cmark: 
+samdmarshall/formulae/cmdparse: nim
+cmus: faad2 flac libao libcue libogg libvorbis mad mp4v2
+samdmarshall/formulae/cmus-airpods: nim
+thefox/brewery/cmus-control: cmus
+samdmarshall/formulae/cs-tools: 
+samdmarshall/formulae/dagger: 
+diff-so-fancy: 
+diffoscope: gnu-tar libarchive libmagic python3
+dirmngr: libassuan libgcrypt libgpg-error libksba pth
+docker: 
+docker-machine: 
+docker-machine-driver-xhyve: docker-machine libev opam
+dockutil: 
+doxygen: 
+dtrx: p7zip unrar
+extract_url: 
+faad2: 
+ffmpeg: lame x264 xvid
+fish: pcre2
+flac: 
+fontconfig: freetype
+freetype: libpng
+fsevent_watch: 
+fzf: 
+gd: fontconfig freetype jpeg libpng libtiff webp
+gdbm: 
+gdm: go
+samdmarshall/formulae/gensite: nim
+genstats: 
+geoip: 
+getmail: 
+gettext: 
+gistit: jansson
+git: 
+github-release: 
+glib: gettext libffi pcre
+gmime: glib gobject-introspection
+gmp: 
+gnu-getopt: gettext
+gnu-tar: 
+gnupg: adns gettext gnutls libassuan libgcrypt libgpg-error libksba libusb npth pinentry
+gnutls: gmp libtasn1 libunistring nettle p11-kit
+go: 
+goaccess: 
+gobject-introspection: cairo glib libffi pkg-config python
+gpg-agent: libassuan libgcrypt libgpg-error libksba pinentry pth
+gpgme: gnupg libassuan libgpg-error pth
+grafana: 
+graphviz: gd libpng libtool
+samdmarshall/formulae/grimoire: nim
+gringo: 
+samdmarshall/formulae/hellcat: 
+samdmarshall/formulae/hero: nim
+hexcurse: 
+hostess: 
+samdmarshall/formulae/html2pdf: 
+htop: 
+httpie: python3
+hub: 
+icu4c: 
+imagemagick: freetype jpeg libpng libtiff libtool xz
+samdmarshall/formulae/images2pdf: 
+samdmarshall/formulae/importrl: libplist nim
+influxdb: 
+samdmarshall/formulae/insert-dylib: 
+samdmarshall/formulae/iosconsole: 
+samdmarshall/formulae/irscc: 
+jansson: 
+jid: 
+jpeg: 
+jrnl: 
+json-c: 
+khal: python3
+lame: 
+libao: 
+libarchive: xz
+libassuan: libgpg-error
+libcue: 
+libev: 
+libevent: openssl
+libffi: 
+libgcrypt: libgpg-error
+libgit2: libssh2
+libgpg-error: 
+libksba: libgpg-error
+libmagic: 
+libogg: 
+libplist: libxml2
+libpng: 
+libssh2: openssl
+libtasn1: 
+libtiff: jpeg
+libtool: 
+libunistring: 
+libusb: 
+libusb-compat: libusb
+libvorbis: libogg
+libxml2: 
+libxmlsec1: gnutls libgcrypt openssl
+libyaml: 
+libyubikey: 
+llvm: libffi
+lnav: pcre readline
+lua: 
+lynx: openssl
+mad: 
+samdmarshall/formulae/makepy: 
+mas: 
+mercurial: python
+micro: 
+mp4v2: 
+msmtp: openssl
+mypy: python3
+nettle: gmp
+nim: 
+nmap: openssl
+node: icu4c
+samdmarshall/formulae/noice: 
+notmuch: gmime talloc xapian
+npth: 
+samdmarshall/formulae/nslocalizer: python3
+oath-toolkit: libxmlsec1
+ocaml: 
+ocamlbuild: ocaml
+samdmarshall/formulae/omni: nim
+opam: aspcud camlp4 ocaml
+opensc: openssl
+openssl: 
+openssl@1.1: 
+p11-kit: libffi
+p7zip: 
+pam_yubico: libyubikey ykclient ykpers
+pandoc: 
+paperkey: 
+pass: gnu-getopt gnupg qrencode tree
+samdmarshall/formulae/pass-otp: 
+path-extractor: 
+pcre: 
+pcre2: 
+samdmarshall/formulae/pewpewthespells: nim
+pinentry: libassuan libgpg-error
+pinentry-mac: 
+pixman: 
+pkg-config: 
+pre-commit: 
+samdmarshall/formulae/preview: libmagic nim
+pth: 
+pwgen: 
+pyenv: autoconf openssl pkg-config readline
+python: gdbm openssl readline sqlite
+python3: gdbm openssl readline sqlite xz
+qrencode: libpng
+readline: 
+ruby: libyaml openssl readline
+samdmarshall/formulae/rune: nim
+samdmarshall/formulae/scan-build: 
+shared-mime-info: gettext glib
+since: 
+socat: openssl readline
+samdmarshall/formulae/space: python3
+sphinx-doc: 
+sqlite: readline
+sslscan: openssl
+stormlib: 
+streamlink: 
+subversion: apr apr-util openssl sqlite
+talloc: 
+telegraf: 
+termbox: 
+the_platinum_searcher: 
+tig: readline
+tmux: libevent
+todoman: python3
+tor: libevent openssl
+tree: 
+unrar: 
+vdirsyncer: python3
+w3m: bdw-gc openssl
+webp: jpeg libpng
+weechat: gettext gnutls libgcrypt
+samdmarshall/formulae/when: nim
+samdmarshall/formulae/where: nim
+x264: 
+xapian: 
+xvid: 
+xz: 
+ykclient: 
+ykpers: json-c libyubikey
+youtube-dl: 
+yubico-piv-tool: openssl

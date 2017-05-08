@@ -1,0 +1,8 @@
+{
+  "name": "test-package",
+  "scripts": {
+    "build": "nim js -d:nodejs testing.nim",
+    "jstest": "node nimcache/testing.js"
+  },
+  "dependencies": {}
+}
