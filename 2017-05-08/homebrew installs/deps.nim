@@ -6,9 +6,9 @@ proc isDependency(name: string, tree: TableRef[string, seq[string]]): (bool, str
   for pkg, value in tree:
     if value.contains(name):
       return (true, pkg)
-  return (false, nil)
+  return (false, "")
 
-let path = expandTilde("~/Desktop/installed.txt")
+let path = expandTilde("./linux_installed.txt")
 var contents = newTable[string, seq[string]]()
 let fd = open(path)
 while not fd.endOfFile():
@@ -25,5 +25,5 @@ for pkg, deps in contents:
   let (isDep, ofPkg) = pkg.isDependency(contents)
   if not isDep:
     echo(pkg)
-  # else:
-    # echo(pkg & " is a dependency of " & ofPkg)
+  else:
+    echo(pkg & " is a dependency of " & ofPkg)

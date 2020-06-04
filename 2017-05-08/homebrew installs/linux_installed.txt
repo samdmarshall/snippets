@@ -1,0 +1,396 @@
+adns: 
+adoptopenjdk: 
+adwaita-icon-theme: bzip2 cairo expat fontconfig freetype fribidi gdbm gdk-pixbuf gettext glib graphite2 harfbuzz icu4c jpeg libbsd libcroco libffi libpng librsvg libtiff libxml2 linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto ncurses openssl pango pcre pixman python python@2 readline shared-mime-info sqlite util-linux xz zlib
+alsa-lib: 
+anime-downloader: aria2 bzip2 gdbm icu4c libffi libssh2 libxml2 ncurses node openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+ant: alsa-lib bzip2 cups expat fontconfig freetype libbsd libpng linuxbrew/xorg/libice linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxi linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/xorgproto ncurses openjdk unzip util-linux zip zlib
+aom: 
+apr: ncurses util-linux zlib
+apr-util: apr expat libbsd libtool mawk ncurses openssl@1.1 readline sqlite unixodbc util-linux zlib
+aria2: bzip2 gdbm libffi libssh2 libxml2 ncurses openssl@1.1 python readline sqlite xz zlib
+aspell: 
+asuka: ncurses openssl@1.1
+at-spi2-atk: at-spi2-core atk bzip2 dbus expat gdbm gettext glib libbsd libffi libxml2 linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxi linuxbrew/xorg/libxtst linuxbrew/xorg/xorgproto ncurses openssl@1.1 pcre python readline sqlite util-linux xz zlib
+at-spi2-core: bzip2 dbus expat gdbm gettext glib libbsd libffi linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxi linuxbrew/xorg/libxtst linuxbrew/xorg/xorgproto ncurses openssl@1.1 pcre python readline sqlite util-linux xz zlib
+atk: bzip2 gdbm gettext glib libffi ncurses openssl@1.1 pcre python@3.8 readline sqlite unzip util-linux xz zlib
+augeas: bzip2 gdbm libffi libxml2 ncurses openssl python readline sqlite xz zlib
+autoconf: berkeley-db expat gdbm libbsd m4 openssl perl
+autoconf-archive: autoconf berkeley-db expat gdbm libbsd m4 openssl perl
+autogen: bdw-gc bzip2 gdbm gmp guile@2 libffi libtool libunistring libxml2 ncurses openssl@1.1 pkg-config python@3.8 readline sqlite unzip xz zlib
+automake: autoconf berkeley-db expat gdbm libbsd m4 openssl@1.1 perl
+avahi: bzip2 dbus expat gdbm gettext glib libbsd libdaemon libffi ncurses openssl@1.1 pcre python@3.8 readline sqlite unzip util-linux xz zlib
+bat: zlib
+bc: flex gettext m4 ncurses zlib
+bdw-gc: 
+bear: bzip2 gdbm libffi ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+berkeley-db: openssl@1.1
+binutils: zlib
+binwalk: binutils bzip2 freetype gcc gdbm gmp isl@0.18 libffi libmpc libpng mpfr ncurses openssl@1.1 p7zip python@3.8 readline sqlite ssdeep unzip xz zlib
+bison: m4
+bitwise: ncurses readline
+samdmarshall/formulae/browserpass: adns autogen bdw-gc bzip2 expat gdbm gettext glib gmp gnupg gnutls gperf guile libassuan libbsd libcap libevent libffi libgcrypt libgpg-error libidn libidn2 libksba libsecret libtasn1 libtool libunistring libusb libxml2 libxslt lz4 ncurses nettle npth openssl@1.1 p11-kit pcre pinentry pkg-config python@3.8 readline sqlite systemd unbound unzip util-linux xz zlib
+byacc: 
+bzip2: 
+cadaver: expat gettext libproxy ncurses neon openssl@1.1 readline zlib
+cairo: bzip2 expat fontconfig freetype gdbm gettext glib libbsd libffi libpng linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo ncurses openssl@1.1 pcre pixman python@3.8 readline sqlite unzip util-linux xz zlib
+cairomm: bzip2 cairo expat fontconfig freetype gdbm gettext glib libbsd libffi libpng libsigc++@2 linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo ncurses openssl@1.1 pcre pixman python readline sqlite util-linux xz zlib
+capstone: 
+cmake: ncurses openssl@1.1
+coreutils: 
+cups: zlib
+curl: openssl@1.1 zlib
+dav1d: 
+dbus: expat libbsd
+dep: go
+dhex: ncurses
+dialog: ncurses
+diff-so-fancy: 
+distribution: 
+docbook: bzip2 gdbm libffi libxml2 ncurses openssl@1.1 python readline sqlite xz zlib
+docbook-xsl: bzip2 docbook gdbm libffi libxml2 ncurses openssl@1.1 python readline sqlite xz zlib
+dos2unix: 
+doxygen: bison flex gettext m4 ncurses
+dtrx: bzip2 gdbm ncurses openssl p7zip python@2 readline sqlite unrar zlib
+dwarfutils: libelf zlib
+emacs: autogen bdw-gc bzip2 expat gdbm gmp gnutls gperf guile jpeg libbsd libevent libffi libidn2 libtasn1 libtool libunistring libxml2 little-cms2 ncurses nettle openssl@1.1 p11-kit pkg-config python readline sqlite unbound xz zlib
+emacs-clang-complete-async: binutils bzip2 gcc gdbm gmp isl@0.18 libedit libelf libffi libmpc libxml2 llvm mpfr ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+emojify: 
+exif: gettext libexif ncurses popt
+exiftool: 
+expat: libbsd
+expect: bzip2 expat fontconfig freetype libbsd libpng linuxbrew/xorg/libdmx linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorg linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans ncurses openssl@1.1 tcl-tk util-linux zlib
+ffmpeg: adoptopenjdk aom autogen bdw-gc binutils bzip2 cairo dav1d expat fftw flac fontconfig freetype frei0r fribidi gcc gdbm gettext giflib glib gmp gnutls graphite2 guile@2 harfbuzz hwloc icu4c isl@0.18 jpeg json-c ladspa-sdk lame leptonica libass libbluray libbsd libcap libevent libffi libidn2 libmpc libogg libpng libsamplerate libsndfile libsoxr libtasn1 libtiff libtool libunistring libvidstab libvorbis libvpx libxml2 linuxbrew/xorg/libice linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxv linuxbrew/xorg/libxxf86vm linuxbrew/xorg/xinput linuxbrew/xorg/xorgproto little-cms2 lzo m4 mpfr ncurses nettle open-mpi opencore-amr openjpeg openssl@1.1 opus p11-kit pcre pixman pkg-config pulseaudio python@3.8 readline rtmpdump rubberband sdl2 snappy speex speexdsp sqlite srt tesseract theora unbound unzip util-linux vamp-plugin-sdk webp x264 x265 xvid xz zlib
+cytopia/tap/ffscreencast: adoptopenjdk aom autogen bdw-gc binutils bzip2 cairo dav1d expat ffmpeg fftw flac fontconfig freetype frei0r fribidi gcc gdbm gettext giflib glib gmp gnutls graphite2 guile@2 harfbuzz hwloc icu4c isl@0.18 jpeg json-c ladspa-sdk lame leptonica libass libbluray libbsd libcap libevent libffi libidn2 libmpc libogg libpng libsamplerate libsndfile libsoxr libtasn1 libtiff libtool libunistring libvidstab libvorbis libvpx libxml2 linuxbrew/xorg/libice linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxv linuxbrew/xorg/libxxf86vm linuxbrew/xorg/xinput linuxbrew/xorg/xorgproto little-cms2 lzo m4 mpfr ncurses nettle open-mpi opencore-amr openjpeg openssl@1.1 opus p11-kit pcre pixman pkg-config pulseaudio python@3.8 readline rtmpdump rubberband sdl2 snappy speex speexdsp sqlite srt tesseract theora unbound unzip util-linux vamp-plugin-sdk webp x264 x265 xvid xz zlib
+fftw: gcc gmp isl@0.18 libevent libmpc mpfr open-mpi openssl zlib
+fish: bzip2 ncurses pcre2 zlib
+flac: libogg
+flex: gettext m4 ncurses
+linuxbrew/xorg/font-cursor-misc: 
+fontconfig: bzip2 expat freetype gdbm libbsd libpng ncurses openssl python@2 readline sqlite util-linux zlib
+fontforge: bzip2 cairo expat fontconfig freetype fribidi gdbm gettext giflib glib graphite2 harfbuzz icu4c jpeg libbsd libffi libpng libspiro libtiff libtool libuninameslist libxml2 linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo ncurses openssl@1.1 pango pcre pixman python@3.8 readline sqlite unzip util-linux xz zlib
+fonttools: bzip2 gdbm libffi ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+freeglut: bzip2 expat fontconfig freetype gdbm libbsd libcap libelf libffi libpng libxml2 linuxbrew/xorg/glu linuxbrew/xorg/libdmx linuxbrew/xorg/libdrm linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libomxil-bellagio linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libva linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/mesa linuxbrew/xorg/wayland linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorg linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans ncurses openssl python python@2 readline sqlite systemd util-linux valgrind xz zlib
+freetype: bzip2 libpng zlib
+frei0r: 
+fribidi: 
+fzf: ncurses
+gcc: gmp isl@0.18 libmpc mpfr zlib
+gcc@6: binutils gmp isl libmpc mpfr zlib
+gcc@7: binutils gmp isl libmpc mpfr zlib
+gd: bzip2 expat fontconfig freetype jpeg libbsd libpng libtiff ncurses util-linux webp zlib
+gdb: bdw-gc bzip2 expat gdbm gmp gperf guile libbsd libffi libtool libunistring ncurses openssl@1.1 pkg-config python@3.8 readline sqlite unzip xz zlib
+gdbm: 
+gdk-pixbuf: bzip2 docbook docbook-xsl gdbm gettext glib gnu-getopt jpeg libffi libpng libtiff libxml2 libxslt ncurses openssl@1.1 pcre python@3.8 readline shared-mime-info sqlite unzip util-linux xmlto xz zlib
+samdmarshall/formulae/getmail: bzip2 gdbm libffi ncurses openssl@1.1 python readline sqlite xz zlib
+gettext: ncurses
+ghi: libyaml ncurses openssl readline ruby zlib
+ghostscript: bzip2 expat fontconfig freetype jpeg libbsd libidn libpng libtiff linuxbrew/xorg/libdmx linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorg linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans ncurses util-linux zlib
+giflib: 
+gifsicle: bzip2 expat fontconfig freetype libbsd libpng linuxbrew/xorg/libdmx linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorg linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans ncurses util-linux zlib
+gistit: curl jansson
+git: bzip2 curl expat gettext libbsd linux-headers ncurses openssl@1.1 pcre2 zlib
+glib: bzip2 gdbm gettext libffi ncurses openssl@1.1 pcre python@3.8 readline sqlite unzip util-linux xz zlib
+linuxbrew/xorg/glu: binutils bzip2 expat gcc gdbm gettext gmp isl@0.18 libbsd libedit libelf libffi libmpc libxml2 linuxbrew/xorg/libdrm linuxbrew/xorg/libomxil-bellagio linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libva-internal linuxbrew/xorg/libvdpau linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86vm linuxbrew/xorg/wayland linuxbrew/xorg/wayland-protocols linuxbrew/xorg/xorgproto llvm lm-sensors mesa mpfr ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+gmime: adns autogen bdw-gc bzip2 expat gdbm gettext glib gmp gnupg gnutls gperf gpgme guile libassuan libbsd libcap libevent libffi libgcrypt libgpg-error libidn libidn2 libksba libsecret libtasn1 libtool libunistring libusb libxml2 libxslt lz4 ncurses nettle npth openssl@1.1 p11-kit pcre pinentry pkg-config python readline sqlite systemd unbound util-linux xz zlib
+gmp: 
+gnu-getopt: 
+gnu-sed: 
+gnupg: adns autogen bdw-gc bzip2 expat gdbm gettext glib gmp gnutls gperf guile libassuan libbsd libcap libevent libffi libgcrypt libgpg-error libidn libidn2 libksba libsecret libtasn1 libtool libunistring libusb libxml2 libxslt lz4 ncurses nettle npth openssl@1.1 p11-kit pcre pinentry pkg-config python readline sqlite systemd unbound util-linux xz zlib
+gnutls: autogen bdw-gc bzip2 expat gdbm gmp guile@2 libbsd libevent libffi libidn2 libtasn1 libtool libunistring libxml2 ncurses nettle openssl@1.1 p11-kit pkg-config python@3.8 readline sqlite unbound unzip xz zlib
+go: 
+gobject-introspection: bison bzip2 cairo expat flex fontconfig freetype gdbm gettext glib libbsd libffi libpng linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo m4 ncurses openssl@1.1 pcre pixman pkg-config python@3.8 readline sqlite unzip util-linux xz zlib
+gperf: 
+gpgme: adns autogen bdw-gc bzip2 expat gdbm gettext glib gmp gnupg gnutls gperf guile libassuan libbsd libcap libevent libffi libgcrypt libgpg-error libidn libidn2 libksba libsecret libtasn1 libtool libunistring libusb libxml2 libxslt lz4 ncurses nettle npth openssl@1.1 p11-kit pcre pinentry pkg-config python@3.8 readline sqlite systemd unbound unzip util-linux xz zlib
+graphite2: 
+graphviz: bzip2 cairo expat fontconfig freetype fribidi gd gdbm gettext glib graphite2 gts harfbuzz icu4c jasper jpeg libbsd libffi libpng libtiff libtool libxml2 linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo ncurses netpbm openssl@1.1 pango pcre pixman python@3.8 readline sqlite unzip util-linux webp xz zlib
+groff: 
+gsasl: bzip2 gdbm libffi libgcrypt libgpg-error libxml2 libxslt ncurses openssl@1.1 python readline sqlite xz zlib
+gsettings-desktop-schemas: bzip2 expat gdbm gettext glib libbsd libffi ncurses openssl@1.1 pcre python@3.8 readline sqlite unzip util-linux xz zlib
+gtk+: atk bzip2 cairo docbook docbook-xsl expat fontconfig freetype fribidi gdbm gdk-pixbuf gettext glib gnu-getopt graphite2 harfbuzz hicolor-icon-theme icu4c jpeg libbsd libffi libpng libtiff libxml2 libxslt linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxinerama linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo ncurses openssl@1.1 pango pcre pixman python@3.8 readline shared-mime-info sqlite unzip util-linux xmlto xz zlib
+gtk+3: at-spi2-atk at-spi2-core atk bzip2 cairo dbus expat fontconfig freeglut freetype fribidi gdbm gdk-pixbuf gettext glib graphite2 gsettings-desktop-schemas harfbuzz hicolor-icon-theme icu4c jpeg libbsd libcap libelf libepoxy libffi libpng libtiff libxml2 linuxbrew/xorg/glu linuxbrew/xorg/libdmx linuxbrew/xorg/libdrm linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libomxil-bellagio linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libva linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/mesa linuxbrew/xorg/wayland linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorg linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans ncurses openssl pango pcre pixman python python@2 readline shared-mime-info sqlite systemd util-linux valgrind xz zlib
+gts: bzip2 gdbm gettext glib jasper jpeg libffi libpng libtiff libxml2 ncurses netpbm openssl@1.1 pcre python readline sqlite util-linux xz zlib
+guile: bdw-gc gmp gperf libffi libtool libunistring ncurses pkg-config readline
+guile@2: bdw-gc gmp libffi libtool libunistring ncurses pkg-config readline
+harfbuzz: bzip2 cairo expat fontconfig freetype gdbm gettext glib graphite2 icu4c libbsd libffi libpng linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo ncurses openssl@1.1 pcre pixman python@3.8 readline sqlite unzip util-linux xz zlib
+hexcurse: ncurses
+hicolor-icon-theme: 
+hostess: 
+htop: ncurses
+hub: 
+hunspell: gettext ncurses readline
+hwloc: bzip2 gdbm libffi libxml2 ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+icu4c: 
+ilmbase: 
+imagemagick: bzip2 docbook docbook-xsl expat fontconfig freetype gdbm gettext ghostscript glib gnu-getopt ilmbase jpeg libbsd libde265 libffi libheif libidn libomp libpng libtiff libtool libxml2 libxslt linuxbrew/xorg/libdmx linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorg linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans little-cms2 llvm ncurses openexr openjpeg openssl@1.1 pcre python@3.8 readline shared-mime-info sqlite unzip util-linux webp x265 xmlto xz zlib
+imake: binutils gcc gmp isl@0.18 libmpc mpfr zlib
+influxdb: 
+intltool: expat libbsd
+inxi: 
+isl: gmp
+isl@0.18: gmp
+itstool: bzip2 gdbm libffi libxml2 ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+jansson: 
+jasper: jpeg
+jid: 
+jpeg: 
+jq: oniguruma
+json-c: 
+keystone: 
+krb5: bison m4 openssl@1.1
+ladspa-sdk: 
+lame: ncurses
+leptonica: giflib jpeg libpng libtiff little-cms2 openjpeg webp zlib
+libass: bzip2 cairo expat fontconfig freetype fribidi gdbm gettext glib graphite2 harfbuzz icu4c libbsd libffi libpng linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto ncurses openssl pcre pixman python@2 readline sqlite util-linux zlib
+libassuan: libgpg-error
+libbluray: adoptopenjdk bzip2 expat fontconfig freetype gdbm libbsd libffi libpng libxml2 ncurses openssl@1.1 python@3.8 readline sqlite unzip util-linux xz zlib
+libbsd: 
+libcap: 
+libcroco: bzip2 gdbm gettext glib libffi libxml2 ncurses openssl pcre python readline sqlite util-linux xz zlib
+libdaemon: 
+libde265: 
+linuxbrew/xorg/libdmx: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libdrm: linuxbrew/xorg/libpciaccess
+libedit: ncurses
+libelf: 
+libepoxy: bzip2 expat fontconfig freeglut freetype gdbm libbsd libcap libelf libffi libpng libxml2 linuxbrew/xorg/glu linuxbrew/xorg/libdmx linuxbrew/xorg/libdrm linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libomxil-bellagio linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libva linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/mesa linuxbrew/xorg/wayland linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorg linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans ncurses openssl python python@2 readline sqlite systemd util-linux valgrind xz zlib
+libevent: openssl@1.1
+libexif: gettext ncurses
+libffi: 
+linuxbrew/xorg/libfontenc: zlib
+linuxbrew/xorg/libfs: linuxbrew/xorg/xorgproto
+libgcrypt: bzip2 gdbm libffi libgpg-error libxml2 libxslt ncurses openssl@1.1 python readline sqlite xz zlib
+libgpg-error: 
+libheif: bzip2 gdbm gettext glib jpeg libde265 libffi libpng libxml2 ncurses openssl@1.1 pcre python@3.8 readline shared-mime-info sqlite unzip util-linux x265 xz zlib
+linuxbrew/xorg/libice: linuxbrew/xorg/xorgproto
+libidn: 
+libidn2: libunistring
+libksba: libgpg-error
+libmagic: zlib
+libmaxminddb: 
+libmpc: gmp mpfr
+libogg: 
+libomp: 
+linuxbrew/xorg/libomxil-bellagio: 
+linuxbrew/xorg/libpciaccess: 
+libplist: 
+libpng: zlib
+libproxy: berkeley-db bzip2 expat gdbm gettext glib libbsd libffi ncurses openssl@1.1 pcre perl python@3.8 readline sqlite unzip util-linux xz zlib
+linuxbrew/xorg/libpthread-stubs: 
+librsvg: bzip2 cairo expat fontconfig freetype fribidi gdbm gdk-pixbuf gettext glib graphite2 harfbuzz icu4c jpeg libbsd libffi libpng libtiff libxml2 linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo ncurses openssl@1.1 pango pcre pixman python@3.8 readline shared-mime-info sqlite unzip util-linux xz zlib
+libsamplerate: flac libogg libsndfile libvorbis
+libsecret: bzip2 gdbm gettext glib libffi libgcrypt libgpg-error libxml2 libxslt ncurses openssl@1.1 pcre python@3.8 readline sqlite unzip util-linux xz zlib
+libsigc++: gcc@7 gmp isl libmpc mpfr zlib
+libsigc++@2: 
+linuxbrew/xorg/libsm: linuxbrew/xorg/libice linuxbrew/xorg/xorgproto
+libsndfile: flac libogg libvorbis
+libsodium: 
+libsoxr: 
+libspiro: 
+libssh: openssl@1.1 zlib
+libssh2: openssl@1.1 zlib
+libtasn1: 
+libtiff: jpeg zlib
+libtool: 
+libuninameslist: 
+libunistring: 
+libusb: expat libbsd libcap ncurses systemd util-linux zlib
+linuxbrew/xorg/libva: bzip2 expat gdbm libbsd libffi libxml2 linuxbrew/xorg/libdrm linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/wayland linuxbrew/xorg/xorgproto ncurses openssl@1.1 python readline sqlite xz zlib
+linuxbrew/xorg/libva-internal: bzip2 expat gdbm libbsd libffi libxml2 linuxbrew/xorg/libdrm linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/wayland linuxbrew/xorg/xorgproto ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+linuxbrew/xorg/libvdpau: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/xorgproto
+libvidstab: 
+libvorbis: libogg
+libvpx: 
+linuxbrew/xorg/libx11: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxau: linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxaw: linuxbrew/xorg/libice linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxt linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxaw3d: linuxbrew/xorg/libice linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxt linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxcb: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libxau linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxcomposite: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxfixes linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxcursor: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxfixes linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxdamage: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxfixes linuxbrew/xorg/xorgproto
+libxdg-basedir: 
+linuxbrew/xorg/libxdmcp: linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxext: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxfixes: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxfont: bzip2 freetype libpng linuxbrew/xorg/libfontenc linuxbrew/xorg/xorgproto zlib
+linuxbrew/xorg/libxft: bzip2 expat fontconfig freetype libbsd libpng linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto ncurses util-linux zlib
+linuxbrew/xorg/libxi: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxinerama: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/xorgproto
+libxkbcommon: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xkeyboardconfig linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxkbfile: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+libxml2: bzip2 gdbm libffi ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+libxmlsec1: autogen bdw-gc bzip2 expat gdbm gmp gnutls gperf guile libbsd libevent libffi libgcrypt libgpg-error libidn2 libtasn1 libtool libunistring libxml2 libxslt ncurses nettle openssl@1.1 p11-kit pkg-config python@3.8 readline sqlite unbound unzip xz zlib
+linuxbrew/xorg/libxmu: linuxbrew/xorg/libice linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxt linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxpm: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxrandr: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxrender: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxres: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxscrnsaver: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxshmfence: 
+libxslt: bzip2 gdbm libffi libxml2 ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+linuxbrew/xorg/libxt: linuxbrew/xorg/libice linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxtst: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxi linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxv: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxvmc: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxv linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxxf86dga: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/xorgproto
+linuxbrew/xorg/libxxf86vm: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/xorgproto
+libyaml: 
+linux-headers: 
+little-cms2: jpeg libtiff zlib
+llvm: binutils bzip2 gcc gdbm gmp isl@0.18 libedit libelf libffi libmpc libxml2 mpfr ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+lm-sensors: 
+lnav: bzip2 ncurses pcre readline sqlite zlib
+lua: bzip2 ncurses readline unzip
+lua@5.1: bzip2 ncurses readline unzip
+luarocks: bzip2 lua ncurses readline unzip
+lynx: ncurses openssl@1.1 zlib
+lz4: 
+lzo: 
+m4: 
+mailutils: autogen bdw-gc bzip2 expat gdbm gmp gnutls gperf gsasl guile libbsd libevent libffi libgcrypt libgpg-error libidn2 libtasn1 libtool libunistring libxml2 libxslt ncurses nettle openssl@1.1 p11-kit pkg-config python readline sqlite unbound xz zlib
+make: 
+makefile2graph: bzip2 expat flex fontconfig freetype gd gdbm gettext glib graphviz gts jasper jpeg libbsd libffi libpng libtiff libtool m4 ncurses netpbm openssl pcre python python@2 readline sqlite util-linux webp xz zlib
+samdmarshall/formulae/makepy: bzip2 gdbm libffi ncurses openssl python readline sqlite xz zlib
+mawk: 
+mercurial: bzip2 gdbm libffi ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+mesa: bzip2 expat gdbm libbsd libcap libelf libffi libxml2 linuxbrew/xorg/libdrm linuxbrew/xorg/libomxil-bellagio linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libva linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86vm linuxbrew/xorg/wayland linuxbrew/xorg/xorgproto ncurses openssl python python@2 readline sqlite systemd util-linux valgrind xz zlib
+meson: bzip2 gdbm libffi ncurses ninja openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+meson-internal: bzip2 gdbm libffi ncurses ninja openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+mosh: binutils gcc@6 gmp isl libmpc mpfr ncurses openssl@1.1 protobuf zlib
+mpfr: gmp
+samdmarshall/formulae/msmtp: autogen bdw-gc bzip2 expat gdbm glib gmp gnutls guile@2 libbsd libevent libffi libidn2 libsecret libtasn1 libtool libunistring libxml2 ncurses nettle openssl@1.1 p11-kit pkg-config python@3.8 readline sqlite unbound unzip xz zlib
+nasm: 
+ncurses: 
+neon: expat libproxy openssl@1.1 zlib
+netpbm: bzip2 gdbm jasper jpeg libffi libpng libtiff libxml2 ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+nettle: gmp
+nim: 
+ninja: 
+nmap: openssl@1.1 zlib
+node: icu4c
+nodeenv: 
+samdmarshall/formulae/noice: ncurses
+notmuch: adns autogen bdw-gc bzip2 expat gdbm gettext glib gmime gmp gnupg gnutls gperf gpgme guile libassuan libbsd libcap libevent libffi libgcrypt libgpg-error libidn libidn2 libksba libsecret libtasn1 libtool libunistring libusb libxml2 libxslt lz4 ncurses nettle npth openssl@1.1 p11-kit pcre pinentry pkg-config python python@3.8 readline sqlite systemd talloc unbound unzip util-linux xapian xz zlib
+npth: 
+nspr: 
+nss: ncurses nspr readline sqlite zlib
+oath-toolkit: autogen bdw-gc bzip2 expat gdbm gmp gnutls gperf guile libbsd libevent libffi libgcrypt libgpg-error libidn2 libtasn1 libtool libunistring libxml2 libxmlsec1 libxslt ncurses nettle openssl@1.1 p11-kit pkg-config python readline sqlite unbound xz zlib
+oniguruma: 
+open-mpi: bzip2 gcc gdbm gmp hwloc isl@0.18 libevent libffi libmpc libxml2 mpfr ncurses openssl@1.1 python readline sqlite xz zlib
+opencore-amr: 
+openexr: ilmbase zlib
+openjdk: alsa-lib bzip2 cups expat fontconfig freetype libbsd libpng linuxbrew/xorg/libice linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxi linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/xorgproto ncurses unzip util-linux zip zlib
+openjpeg: jpeg libpng libtiff little-cms2 zlib
+openssl@1.1: 
+optipng: zlib
+opus: 
+p11-kit: libffi systemd
+p7zip: 
+pandoc: zlib
+pango: bzip2 cairo expat fontconfig freetype fribidi gdbm gettext glib graphite2 harfbuzz icu4c libbsd libffi libpng linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo ncurses openssl@1.1 pcre pixman python@3.8 readline sqlite unzip util-linux xz zlib
+paperkey: 
+pass: adns autogen bdw-gc bzip2 expat gdbm gettext glib gmp gnu-getopt gnupg gnutls gperf guile libassuan libbsd libcap libffi libgcrypt libgpg-error libidn libksba libpng libsecret libtasn1 libtool libunistring libusb libxml2 libxslt ncurses nettle npth openssl p11-kit pcre pinentry pkg-config python python@2 qrencode readline sqlite systemd tree util-linux xz zlib
+pass-otp: adns autogen bdw-gc bzip2 expat gdbm gettext glib gmp gnu-getopt gnupg gnutls guile@2 libassuan libbsd libcap libevent libffi libgcrypt libgpg-error libidn libidn2 libksba libpng libsecret libtasn1 libtool libunistring libusb libxml2 libxmlsec1 libxslt lz4 ncurses nettle npth oath-toolkit openssl@1.1 p11-kit pass pcre pinentry pkg-config python@3.8 qrencode readline shellcheck sqlite systemd tree unbound unzip util-linux xz zlib
+patchelf: 
+pcre: bzip2 zlib
+pcre2: bzip2 zlib
+peco: 
+perl: berkeley-db expat gdbm libbsd openssl@1.1
+pinentry: bzip2 gdbm gettext glib libassuan libffi libgcrypt libgpg-error libsecret libxml2 libxslt ncurses openssl pcre python python@2 readline sqlite util-linux xz zlib
+pixman: 
+pkg-config: 
+popt: 
+proselint: bzip2 gdbm libffi ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+protobuf: binutils gcc@6 gmp isl libmpc mpfr zlib
+pulseaudio: bzip2 expat flac gdbm gettext glib json-c libbsd libcap libffi libogg libsndfile libsoxr libtool libvorbis ncurses openssl@1.1 pcre python readline speexdsp sqlite util-linux xz zlib
+pwgen: 
+py2cairo: bzip2 cairo expat fontconfig freetype gdbm gettext glib libbsd libffi libpng linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo ncurses openssl@1.1 pcre pixman python python@2 readline sqlite util-linux xz zlib
+py3cairo: bzip2 cairo expat fontconfig freetype gdbm gettext glib libbsd libffi libpng linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo ncurses openssl@1.1 pcre pixman python@3.8 readline sqlite unzip util-linux xz zlib
+pyenv: autoconf berkeley-db bzip2 expat gdbm libbsd libffi m4 ncurses openssl@1.1 perl pkg-config python@3.8 readline sqlite unzip xz zlib
+pygobject3: bison bzip2 cairo expat flex fontconfig freetype gdbm gettext glib gobject-introspection libbsd libffi libpng linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto lzo m4 ncurses openssl@1.1 pcre pixman pkg-config py3cairo python@3.8 readline sqlite unzip util-linux xz zlib
+python: bzip2 gdbm libffi ncurses openssl@1.1 readline sqlite xz zlib
+python@2: bzip2 gdbm ncurses openssl@1.1 readline sqlite zlib
+python@3.8: bzip2 gdbm libffi ncurses openssl@1.1 readline sqlite unzip xz zlib
+qrencode: libpng zlib
+ragel: 
+readline: ncurses
+rst-lint: bzip2 gdbm libffi ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+rtmpdump: openssl@1.1 zlib
+rubberband: adoptopenjdk fftw flac gcc gmp hwloc isl@0.18 ladspa-sdk libevent libmpc libogg libsamplerate libsndfile libvorbis mpfr open-mpi openssl vamp-plugin-sdk zlib
+ruby: libyaml ncurses openssl@1.1 readline zlib
+rust: binutils curl libssh2 openssl@1.1 pkg-config zlib
+scons: bzip2 gdbm libffi ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+sdl2: bzip2 expat flac gdbm gettext glib json-c libbsd libcap libffi libogg libsndfile libsoxr libtool libvorbis linuxbrew/xorg/libice linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxxf86vm linuxbrew/xorg/xinput linuxbrew/xorg/xorgproto m4 ncurses openssl@1.1 pcre pulseaudio python@3.8 readline speexdsp sqlite unzip util-linux xz zlib
+shared-mime-info: bzip2 docbook docbook-xsl gdbm gettext glib gnu-getopt libffi libxml2 libxslt ncurses openssl@1.1 pcre python@3.8 readline sqlite unzip util-linux xmlto xz zlib
+shellcheck: 
+samdmarshall/formulae/sig2dot: berkeley-db expat gdbm libbsd openssl perl
+since: 
+snappy: 
+socat: ncurses openssl@1.1 readline
+speedtest-cli: 
+speex: libogg
+speexdsp: 
+sphinx-doc: bzip2 gdbm libffi ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+sqlite: ncurses readline zlib
+srt: openssl@1.1
+ssdeep: 
+startup-notification: linuxbrew/xorg/libx11 linuxbrew/xorg/libxcb linuxbrew/xorg/xcb-util
+subversion: apr apr-util berkeley-db bison bzip2 expat gdbm gettext krb5 libbsd libffi libtool libyaml lz4 m4 mawk ncurses openssl@1.1 perl python@3.8 readline ruby sqlite unixodbc unzip utf8proc util-linux xz zlib
+swig: bzip2 pcre zlib
+swig@3: bzip2 pcre zlib
+systemd: expat libbsd libcap lz4 ncurses openssl@1.1 util-linux xz zlib
+talloc: 
+tcl-tk: bzip2 expat fontconfig freetype libbsd libpng linuxbrew/xorg/libdmx linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorg linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans ncurses openssl@1.1 util-linux zlib
+termbox: 
+tesseract: giflib jpeg leptonica libpng libtiff little-cms2 openjpeg webp zlib
+texi2html: gettext ncurses zlib
+the_platinum_searcher: 
+theora: libogg libvorbis
+tig: ncurses readline
+tmux: libevent ncurses openssl@1.1 utf8proc
+tokyo-cabinet: bzip2 zlib
+tree: 
+unbound: expat libbsd libevent openssl@1.1
+unixodbc: libtool
+unrar: 
+unzip: bzip2
+up: 
+utf8proc: 
+util-linux: ncurses zlib
+linuxbrew/xorg/util-macros: 
+valgrind: 
+vamp-plugin-sdk: flac libogg libsndfile libvorbis
+w3m: bdw-gc gettext libbsd ncurses openssl@1.1 zlib
+linuxbrew/xorg/wayland: bzip2 expat gdbm libbsd libffi libxml2 ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+linuxbrew/xorg/wayland-protocols: 
+webp: jpeg libpng zlib
+websocat: openssl@1.1
+x264: binutils gcc gmp isl@0.18 libmpc mpfr zlib
+x265: 
+xapian: bzip2 gdbm libffi ncurses openssl@1.1 python@3.8 readline sqlite unzip util-linux xz zlib
+linuxbrew/xorg/xcb-proto: 
+linuxbrew/xorg/xcb-util: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/xcb-util-cursor: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xcb-util linuxbrew/xorg/xcb-util-image linuxbrew/xorg/xcb-util-renderutil linuxbrew/xorg/xorgproto
+linuxbrew/xorg/xcb-util-image: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xcb-util linuxbrew/xorg/xorgproto
+linuxbrew/xorg/xcb-util-keysyms: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/xcb-util-renderutil: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/xcb-util-wm: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+samdmarshall/formulae/xcb-util-xrm: linuxbrew/xorg/libxcb linuxbrew/xorg/xcb-util
+xclip: bzip2 expat fontconfig freetype gdbm libbsd libpng linuxbrew/xorg/libdmx linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorg linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans ncurses openssl python@2 readline sqlite util-linux zlib
+linuxbrew/xorg/xcursor-themes: 
+xdot: adwaita-icon-theme at-spi2-atk at-spi2-core atk bison bzip2 cairo dbus expat flex fontconfig freeglut freetype fribidi gdbm gdk-pixbuf gettext glib gobject-introspection graphite2 gsettings-desktop-schemas gtk+3 harfbuzz hicolor-icon-theme icu4c jpeg libbsd libcap libcroco libelf libepoxy libffi libpng librsvg libtiff libxml2 linuxbrew/xorg/glu linuxbrew/xorg/libdmx linuxbrew/xorg/libdrm linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libomxil-bellagio linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libva linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/mesa linuxbrew/xorg/wayland linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorg linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans m4 ncurses openssl pango pcre pixman pkg-config py2cairo py3cairo pygobject3 python python@2 readline shared-mime-info sqlite systemd util-linux valgrind xz zlib
+linuxbrew/xorg/xdpyinfo: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxi linuxbrew/xorg/libxtst linuxbrew/xorg/xorgproto
+linuxbrew/xorg/xinput: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/xorgproto
+linuxbrew/xorg/xkeyboardconfig: 
+xmlto: bzip2 docbook docbook-xsl gdbm gnu-getopt libffi libxml2 libxslt ncurses openssl@1.1 python@3.8 readline sqlite unzip xz zlib
+linuxbrew/xorg/xorg: bzip2 expat fontconfig freetype gdbm libbsd libpng linuxbrew/xorg/libdmx linuxbrew/xorg/libfontenc linuxbrew/xorg/libfs linuxbrew/xorg/libice linuxbrew/xorg/libpciaccess linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libsm linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxaw linuxbrew/xorg/libxaw3d linuxbrew/xorg/libxcb linuxbrew/xorg/libxcomposite linuxbrew/xorg/libxcursor linuxbrew/xorg/libxdamage linuxbrew/xorg/libxdmcp linuxbrew/xorg/libxext linuxbrew/xorg/libxfixes linuxbrew/xorg/libxfont linuxbrew/xorg/libxft linuxbrew/xorg/libxi linuxbrew/xorg/libxinerama linuxbrew/xorg/libxkbfile linuxbrew/xorg/libxmu linuxbrew/xorg/libxpm linuxbrew/xorg/libxrandr linuxbrew/xorg/libxrender linuxbrew/xorg/libxres linuxbrew/xorg/libxscrnsaver linuxbrew/xorg/libxshmfence linuxbrew/xorg/libxt linuxbrew/xorg/libxtst linuxbrew/xorg/libxv linuxbrew/xorg/libxvmc linuxbrew/xorg/libxxf86dga linuxbrew/xorg/libxxf86vm linuxbrew/xorg/xdpyinfo linuxbrew/xorg/xorgproto linuxbrew/xorg/xtrans ncurses openssl python@2 readline sqlite util-linux zlib
+linuxbrew/xorg/xorgproto: 
+linuxbrew/xorg/xprop: linuxbrew/xorg/libpthread-stubs linuxbrew/xorg/libx11 linuxbrew/xorg/libxau linuxbrew/xorg/libxcb linuxbrew/xorg/libxdmcp linuxbrew/xorg/xorgproto
+linuxbrew/xorg/xtrans: 
+xvid: 
+xz: 
+yarn: icu4c node
+yasm: 
+youtube-dl: 
+zip: 
+zlib: 
