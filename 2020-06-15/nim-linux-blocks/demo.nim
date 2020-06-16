@@ -5,7 +5,7 @@ type BlockPointer* = distinct pointer
 {.passC: "-I./".}
 {.passC: "-fblocks".}
 when not defined(macosx):
-  {.passL: "-lBlockRuntime".}
+  {.passL: "-lBlocksRuntime".}
 {.compile: "blocks.c".}
 
 import sequtils
@@ -13,44 +13,10 @@ import strutils
 import strformat
 import macros
 
-import md5
-import std/sha1
-
-#[
-proc doubleValueWithBlock(value: cdouble, withBlock: BlockPointer): int {.importc: "doubleValueWithBlock", nodecl.}
+proc doubleValueWithBlock(value: cdouble, withBlock: BlockPointer): cint {.importc: "doubleValueWithBlock", nodecl.}
 
 
-import macros
-
-proc mangleBlockName(name: string): string {.compileTime.} = 
-  return staticExec("md5 -qs " & name)
-
-template CreateBlock(declaredName: string, returnValue: string, parameters: OrderedTable[string, string]): void =
-  {.emit: "typedef " & returnValue & " (^" & mangleBlockName(declaredName) & ")();".}
-  let 
-  {.emit: "static " & mangleBlockName(declaredName) & " " & declaredName & " = ^" & returnValue & "(double a) { return nimCall_" & declaredName & "(" & arguments.join(",") & "); };".}
-
-CreateBlock("add5", "int", @{"a": "double"}.toOrderedTable)
-
-macro importBlock(imp: stmt): stmt = 
-  result = newStmtList()
-  let prefix = "objcBlockBridge_"
-  for i in 0..(imp.len - 1):
-    let s = imp[i]
-    case s.kind
-    of nnkProcDef:
-      if s.pragma.kind == nnkEmpty:
-        s.pragma = newNimNode(nnkPragma)
-      s[4].add(newNimNode(nnkExprColonExpr).add(!"exportc", newStrLitNode(prefix & $ident(basename(name(s))))))
-    else:
-      discard
-    result.add s
-
-  proc add5(a: cdouble): cint =
-    return cint(5.0 + a)
-]#
-
-proc parseReturnType(node: NimNode): string =
+proc parseReturnType(node: NimNode): string {.compiletime.} =
   for child in node.children():
     case child.kind
     of nnkEmpty:
@@ -62,7 +28,7 @@ proc parseReturnType(node: NimNode): string =
     if result != "":
       break
 
-proc parseArguments(node: NimNode): seq[string] =
+proc parseArguments(node: NimNode): seq[string] {.compiletime.} =
   for argument in node.children():
     case argument.kind
     of nnkIdentDefs:
@@ -84,23 +50,75 @@ proc parseArguments(node: NimNode): seq[string] =
     else:
       discard
 
-proc translateBlock(body: NimNode, prefix: string): NimNode =
+proc toCType(nimType: string): string {.compiletime.} =
+  case nimType
+  of "cdouble":
+    result = "double"
+  of "cfloat":
+    result = "float"
+  of "cint":
+    result = "int"
+  of "cbool":
+    result = "bool"
+  of "void":
+    result = "void"
+  of "cstring":
+    result = "char *"
+  else:
+    discard
+
+proc genArgName(num: int): string {.compiletime.} =
+  let index = num mod 26
+  let count = num div 26
+  let alpha = toSeq('a'..'z')
+  result = fmt"{alpha[index]}{count}"
+
+proc toParamsDeclaration(arguments: seq[string]): string {.compiletime.} =
+  var items = newSeq[string]()
+  var index = 0
+  while index < len(arguments):
+    items.add fmt"{toCType(arguments[index])} {genArgName(index)}"
+    inc(index)
+  result = items.join(", ")
+
+proc toParamsArgs(arguments: seq[string]): string {.compiletime.} =
+  var items = newSeq[string]()
+  var index = 0
+  while index < len(arguments):
+    items.add fmt"{genArgName(index)}"
+    inc(index)
+  result = items.join(", ")
+
+proc translateBlock(procDef: NimNode, prefix: string): NimNode {.compiletime.} =
   result = newStmtList()
-  case body.kind
+  case procDef.kind
   of nnkProcDef:
-    let name = body.name
-    let parameters = body.params
+    let name = procDef.name
+    let parameters = procDef.params
     let return_type = parseReturnType(parameters)
     let arguments = parseArguments(parameters)
-    case body.pragma.kind
-    of nnkEmpty:
-      body.pragma = newNimNode(nnkPragma)
-    else:
-      discard
-    echo body.pragma
-      
-    echo fmt"""{return_type} {name}({arguments.join(",")})"""
-    result.add body
+
+    var exportc_expr = newColonExpr(newIdentNode("exportc"), newStrLitNode(fmt"{prefix}{name}_func"))
+    procDef.addPragma(exportc_expr)
+
+    var block_typedef = newNimNode(nnkPragma)
+    var block_typedef_expr = newColonExpr(newIdentNode("emit"), newStrLitNode(fmt"typedef {toCType(return_type)} (^{name}_block)({toParamsDeclaration(arguments)});"))
+    block_typedef.add block_typedef_expr
+    
+    var block_definition = newNimNode(nnkPragma)
+    var block_definition_expr = newColonExpr(newIdentNode("emit"), newStrLitNode(fmt"""static {name}_block {name} = ^{toCType(return_type)}({toParamsDeclaration(arguments)}) {{ printf("arg: %f\n", a0); return {prefix}{name}_func({toParamsArgs(arguments)}); }};"""))
+    block_definition.add block_definition_expr
+
+    var block_import = newNimNode(nnkPragma)
+    block_import.add newColonExpr(newIdentNode("importc"), newStrLitNode(fmt"{name}"))
+    block_import.add newIdentNode("nodecl")
+
+    var block_proc = newProc(name = newIdentNode(fmt"{name}_block"), params = toSeq(parameters.children()), pragmas = block_import)
+#    echo fmt"""{return_type} {name}({arguments.join(",")})"""
+    result.add block_typedef
+    result.add block_definition
+    result.add block_proc
+    result.add procDef
   else:
     discard
 #    {.fatal: "The `objcblock` and `cblock` pragmas can only be used on `proc` defintions!".}
@@ -114,8 +132,7 @@ macro cblock*(def: untyped): untyped =
 proc add5(a: cdouble): cint {.cblock.} =
   result = cint(5.0 + a)
 
-
 when isMainModule:
-  let block_ptr = cast[BlockPointer](add5)
+  let block_ptr = cast[BlockPointer](add5_block)
   echo repr(block_ptr)
-#  echo doubleValueWithBlock(2.5, block_ptr)
+  echo doubleValueWithBlock(2.5, block_ptr)

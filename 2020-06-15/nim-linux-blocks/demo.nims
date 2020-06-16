@@ -1,4 +1,4 @@
 
 switch "cc", "clang"
 
-echo findExe("clang")
+#switch "compileOnly", "on"

@@ -1,5 +1,5 @@
 #include <stdlib.h>
-//#include <Block.h>
+#include <Block.h>
 
 typedef int (^DoubleBlock)(double value);
 
